@@ -1,4 +1,5 @@
-ollama
+langchain
+langchain-ollama
+langchain-postgres
+langchain-text-splitters
 psycopg[binary]
-pgvector
-numpy
