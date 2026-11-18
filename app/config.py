@@ -22,3 +22,15 @@ CHUNK_SIZE = 600
 CHUNK_OVERLAP = 100
 
 TOP_K = 3
+
+ALLOWED_EXTENSIONS = {
+    ".md",
+    ".txt",
+}
+
+MAX_UPLOAD_BYTES = 1_000_000
+
+
+CORS_ORIGINS = [
+    "http://localhost:5173",
+]
